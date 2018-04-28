@@ -6,6 +6,7 @@ def word_substituter(tweet)
 end
 
 def dictionary(word)
+    w = word.downcase
     my_dict = {
         "hello" => 'hi',
         "to" => '2',
