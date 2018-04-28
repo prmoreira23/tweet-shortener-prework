@@ -25,3 +25,6 @@ end
 def bulk_tweet_shortener(list_of_tweets)
 
 end
+
+def shortened_tweet_truncator
+end
