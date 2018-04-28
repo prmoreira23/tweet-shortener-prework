@@ -22,8 +22,16 @@ def dictionary(word)
 end
 
 
-def bulk_tweet_shortener(list_of_tweets)
+def bulk_tweet_shortener(tweets)
+    tweets.each do |tweet|
+        puts tweet
+    end
+end
 
+def selective_tweet_shortener
+end
+
+def tweet_shortener
 end
 
 def shortened_tweet_truncator
