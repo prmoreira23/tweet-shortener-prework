@@ -20,3 +20,8 @@ def dictionary(word)
     }
     my_dict[word] ? my_dict[word] : word
 end
+
+
+def bulk_tweet_shortener(list_of_tweets)
+
+end
