@@ -18,7 +18,7 @@ def dictionary(word)
         "at" => '@',
         "and" => '&'
     }
-    my_dict[word] ? my_dict[word] : word
+    my_dict.keys.include? word ? my_dict[word] : word
 end
 
 
