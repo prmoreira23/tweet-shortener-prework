@@ -4,9 +4,10 @@ end
 
 def dictionary(word)
     my_dict = {
-        "hello" => "hi",
-        "to" => "2",
-        "two" => "2",
-        "too" => "2" 
+        "hello" => 'hi',
+        "to" => '2',
+        "two" => '2',
+        "too" => '2',
+        "for, four" => '4'
     }
 end
