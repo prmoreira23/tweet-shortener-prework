@@ -15,4 +15,5 @@ def dictionary(word)
         "at" => '@',
         "and" => '&'
     }
+    my_dict[word] ? my_dict[word] : 
 end
