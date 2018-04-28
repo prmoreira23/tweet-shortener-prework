@@ -3,7 +3,7 @@ def word_substituter(tweet)
     tweet.split(" ").collect! do |word|
         dictionary(word)
     end.join(" ")
-    tweet
+    puts tweet
 end
 
 def dictionary(word)
